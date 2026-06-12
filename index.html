@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html>
-<body style="margin:0; background:black;">
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio in Loop</title>
+</head>
+<body>
 
-<audio id="a" controls loop>
-  https://unipg-my.sharepoint.com/:u:/g/personal/gabriele_quitadamo_studenti_unipg_it/IQA90s4YZKsRT7jRJAllNHGRAZ23U6LrDzXP9oHao9rDfAo?download=1
-</audio>
-
-<script>
-document.body.addEventListener('click', function() {
-  document.getElementById('a').play();
-});
-</script>
+    <audio autoplay loop controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
 
 </body>
 </html>
