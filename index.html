@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body style="margin:0;">
-<audio autoplay loop>
+<body style="margin:0; background:black;">
+
+<audio id="a" autoplay loop controls>
   https://unipg-my.sharepoint.com/:u:/g/personal/gabriele_quitadamo_studenti_unipg_it/IQA90s4YZKsRT7jRJAllNHGRAZ23U6LrDzXP9oHao9rDfAo?download=1
 </audio>
+
+<script>
+document.body.addEventListener('click', function() {
+  document.getElementById('a').play();
+});
+</script>
+
 </body>
 </html>
